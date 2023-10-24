@@ -6,7 +6,8 @@ const Hero = () => {
   return (
     <>
       <section className='hero'>
-        <div className='container'>
+      <div className="overlay">
+      <div className='container'>
           <Heading title='Search Your Next Home ' subtitle='Find new & featured property located in your local city.' />
 
           <form className='flex'>
@@ -30,6 +31,7 @@ const Hero = () => {
             </button>
           </form>
         </div>
+      </div>
       </section>
     </>
   )
